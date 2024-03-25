@@ -1,1 +1,277 @@
 # trangweb_tivi.github.io
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Học menu đa cấp</title>
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <img src ="nhul.jpg" alt="">
+        <h1 style="background-color: bisque;"><i>Siêu thị Ăn ba tô cơm</i></h1>
+        <h2 style="background-color: bisque;">Siêu thị Ăn ba tô cơm</h2>
+        <ul class="menu">
+            <li>
+                <a href="">Sản phẩm</a>
+                <ul class="sub-menu">
+                    <li><a href="">Siêu thị </a></li>
+                    <li><a href="">Điện thoại nhập khẩu</a></li>
+                    <li><a href="">Ti vi nội địa</a></li>
+                    <li><a href="">Ti vi bán cháy hàng</a></li>
+                    <li><a href="">Sản phẩm khác</a></li>
+                </ul>
+            </li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Tin Tức</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Trang chủ</a></li>
+        </ul>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+#imghead{
+    width: 100%;
+    height: auto;
+}
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #logo{
+        width: 5%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color: black;
+    }
+    header{
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav li{
+        margin-right: 20px;
+    }
+    nav li :hover{
+        background-color: brown;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
+        margin: 30px 15px 10px 0px;
+    }
+.list-menu{
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+.list-menu ul{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.list-menu li{
+    margin: auto;
+    list-style-type: none;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list-menu a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.list-menu a:hover {
+    color: red;
+}
+main{
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.menu-vertical{
+    float: left;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 300px;
+    background-color: gainsboro;
+}
+.menu-vertical ul{
+    display: block;
+    background-color: white;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+.menu-vertical li{
+    list-style-type: none;
+    color: rgb(41, 41, 41);
+    font-size: 10px;
+    margin-top: 20px;
+}
+.section{
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: gainsboro;
+    padding: 10px 0 10px 0;
+}
+.section #mainbg img{
+    width: 410px;
+    height: auto;
+}
+.section #mainbg{
+    float: left;
+    width: 60%;
+    height: 150px;
+}
+.section #extrabg img{
+    width: 200px;
+    height: auto;
+}
+.section #extrabg {
+    float: left;
+    width: 40%;
+}
+</style>
+    <section>
+        <div>
+            <h2>SHOP ONLINE</h2>
+            <P>Hệ thống máy sông hơi Hàn Quốc<br>
+            Alibama và 40 con ma </p>
+        </div>
+        <header>
+            <h2 id="brand">AMBATUKAM <br>STORE</h2>
+        </header>
+    </section>
+    <a href="https://www.youtube.com/watch?v=GvMbLvY1XuE"></a>
+    <button>Bấm vô đây</button>
+</body>
+    <header>
+        <h1>Danh mục sản phẩm cực hot</h1>
+    </header>
+    <main>
+        <!--Section 1-->>
+        <section class="section">
+            <h2>Máy tính</h2>
+            <div class="product">
+                <!--Sản phẩm số 1-->>
+                <div class="product">
+                    <img src="tivi5.jpg" alt="Máy tính 1">
+                    <h3>Tivi Sony</h3>
+                    <p>Giá: 10.000.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="tivi6.jpg" alt="Máy tính 2">
+                    <h3>Toshiba Smart TV</h3>
+                    <p>Giá: 20.500.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="tivi7.jpg" alt="Máy tính 3">
+                    <h3>TCL Google TV</h3>
+                    <p>Giá: 13.000.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+            </div>
+        </section>
+        <!--Section 2-->>
+        <section class="section">
+            <h2>Danh sách tivi bán cháy hàng</h2>
+            <div class="product">
+                <!--Sản phẩm số 2-->>
+                <div class="product">
+                    <img src="tivi1.jpg" alt="Tivi 1">
+                    <h3>Tivi Ansanzo</h3>
+                    <p>Giá: 20.000.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="tivi4.jpg" alt="Tivi 2">
+                    <h3>Tivi Soly</h3>
+                    <p>Giá: 30.000.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="tivi3.jpg" alt="Tivi 3">
+                    <h3>Tivi LGBT</h3>
+                    <p>Giá: 10.000.000 VNĐ</p>
+                    <button>Mua ngay</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Section 3-->>
+    <section class="section">
+        <h2>Danh mục điện thoại siêu prooo</h2>
+        <div class="product">
+            <!--Sản phẩm số 3-->>
+            <div class="product">
+                <img src="tivi8.jpg" alt="Điện thoại 1">
+                <h3>Samsung Smart TV</h3>
+                <p>Giá: 18.000.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="tivi9.jpg" alt="Điện thoại 2">
+                <h3>Smart Tivi NanoCell LG 4K 65 inch</h3>
+                <p>Giá: 200000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="tivi10.jpg" alt="Điện thoại 3">
+                <h3>Android Tivi LED Hisense 40 inch</h3>
+                <p>Giá: 220.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+    <!--Section 4-->
+    <section>
+        <h2>Liên hệ</h2>
+        <form action="">
+           <label for="name">Họ và Tên:</label>
+           <label type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="messenger">Nội dung:</label>
+            <input type="text" id="messenger" name="messenger"><br>
+            <label for="submit">Gửi:</label>
+        </form>
+    </section>
+    </main>
+        <nav>
+            <ul>
+                <li><a href="#"Hà Nội></a></li>
+                <li><a href="#"Thành Phố Hồ Chí Minh></a></li>
+                <li><a href="#"Trung Của></li>
+            </ul>
+            <h1>THÔNG TIN LIÊN HỆ</h1>
+            <form action="">
+                <input type="text" placeholder="Họ và tên">
+                <input type="text" placeholder="Số điện thoại"><br>
+                <h3>Tìm kiếm cửa hàng</h3>
+                <label for="area">Khu vực lựa chọn</label>
+                <select name="area" id="">
+                    <option value="">Hà Nội</option>
+                    <option value="">Thành phố Hồ Chí Minh</option>
+                    <option value="">Đà Nẵng</option>
+                </select>
+            </form>
+        </nav>
+</body>
+</html>
